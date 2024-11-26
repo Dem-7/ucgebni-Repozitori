@@ -35,14 +35,13 @@ bird = Bird("Страусы" , "3" , "большой")
 mammal =Mammal("Собаки " , "8" , "Жирное")
 reptile = Reptile("Змеи" , "5" , "Длиный")
 animals =[bird , mammal , reptile]
-
-def animal_sound(animals):
+def animal_sound(animals):# Полиморфизм
     for a in animals:
         a.make_sound()
 animal_sound(animals)
 class Zoo ():
-    def __init__ (self, sotrudniki , zivnost):
-        self.animal = Animal          # Композиция  +  строки 13 и 14
+    def __init__ (self):
+        self.animal = Animal          # Композиция    строки 13 и 14  + 53, 54
         self.zivnost = []
         self.sotrudniki = []
 
@@ -52,7 +51,7 @@ class Zoo ():
     def b(self, r):
         self.zivnost.append(r) # Добовляем животных
     def ll (self):
-        self.animal.mm()
+        self.animal.mm(self)   # Вызываем метод mm у класса Animal
 class ZooKeeper():
     def feed_animal(self):
         print(f"Сотрудники   кормят животных ")
@@ -65,7 +64,8 @@ class Veterinarian():
 veterinarian = Veterinarian()
 veterinarian.heal_animal()
 
-
+zoo = Zoo()
+zoo.ll()
 
 
 
