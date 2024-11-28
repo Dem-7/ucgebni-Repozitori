@@ -43,6 +43,7 @@ def nn (l):
 
 nn(mech)
 
+nn(luk)
 
 
 
