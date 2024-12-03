@@ -48,7 +48,7 @@ class Game():
         self.computer = computer
 
     def start(self):
-        while self.player.is_alive()  and self.computer.is_alive:
+        while True:
            self.player.attack(self.computer)
            if self.computer.is_alive () == False:
             print( f"{self.player.name} выиграл")
