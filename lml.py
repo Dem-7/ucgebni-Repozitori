@@ -1,3 +1,4 @@
+
 class Hero:
     def __init__(self, name, health=100, attack_power=20):
         self.name = name
@@ -35,4 +36,5 @@ player = Hero("Человек", 100, 20)
 computer = Hero("Компьютер", 100, 20)
 game = Game(player, computer)
 game.start()
+
 
