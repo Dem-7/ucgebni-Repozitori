@@ -1,0 +1,11 @@
+contentUrl,contentSize,md5,encodingFormat,@id,@type,name,description,containedIn/@id
+https://www.kaggle.com/api/v1/datasets/download/pooriamst/occupancy-detection?datasetVersionNumber=1,247.217 KB,Ld3VffN5zhWAYLf1niU9tw==,application/zip,archive.zip,cr:FileObject,archive.zip,Archive containing all the contents of the Occupancy Detection dataset,
+datatest.csv,,,text/csv,datatest.csv_fileobject,cr:FileObject,datatest.csv,"date time year-month-day hour: minute:second
+Temperature, in Celsius
+Relative Humidity, %
+Light, in Lux 
+CO2, in ppm
+Humidity Ratio, Derived quantity from temperature and relative humidity, in kgwater-vapor/kg-air
+Occupancy, 0 or 1.      0 for not occupied, 1 for occupied status",archive.zip
+datatrain.csv,,,text/csv,datatrain.csv_fileobject,cr:FileObject,datatrain.csv,,archive.zip
+
