@@ -1,0 +1,84 @@
+
+.card{
+   width: 400px;
+   height: 600px;
+   background-color: burlywood;
+   border-radius: 60px;}
+
+h1 {
+ position: relative;
+ left: 80px;}
+
+img {
+width: 300px;
+border-radius:20px;
+position: relative;
+left:50px;
+ top: 10px;}
+
+p {
+font-size:25px;
+position:relative;
+left:40px;}
+
+#a {
+position:relative;
+left:110px;}
+
+#b {
+position:relative;
+left:60px;}
+
+.card:hover{
+background-color:#778899;
+border-style: dotted;}
+
+#r {
+   width: 400px;
+   height: 600px;
+   background-color: burlywood;
+   border-radius: 60px;
+  position:relative;
+  left:465px;
+  bottom:600px;}
+
+#f {
+border-radius:20px;
+position: relative;
+left:50px;
+ top: 10px;}
+
+#aa{
+font-size:25px;
+position:relative;
+left:100px;}
+
+#bb {
+position:relative;
+left:60px;}
+
+#r:hover{
+background-color:#778899;
+border-style: dotted;}
+
+#rr {
+   width: 400px;
+   height: 600px;
+   background-color: burlywood;
+   border-radius: 60px;
+  position:relative;
+  left:930px;
+  bottom:1200px;}
+
+   #rr:hover{
+background-color:#778899;
+border-style: dotted;}
+
+ #aaa {
+position:relative;
+left:100px;}
+
+#bbb {
+position:relative;
+left:70px;}
+
