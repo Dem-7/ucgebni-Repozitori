@@ -1,0 +1,4 @@
+Parse error on line 1:
+https://www.kaggle.c
+^
+Expecting 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[', got 'undefined'

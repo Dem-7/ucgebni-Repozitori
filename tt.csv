@@ -1,25 +1,49 @@
-contentUrl,contentSize,md5,encodingFormat,@id,@type,name,description,containedIn/@id
-https://www.kaggle.com/api/v1/datasets/download/arshmankhalid/caf-rewards-offer-dataset?datasetVersionNumber=1,6.691 MB,ms+IWM90E2SyoOjoDKmWaA==,application/zip,archive.zip,cr:FileObject,archive.zip,Archive containing all the contents of the Café Rewards Offer Dataset dataset,
-customers.csv,,,text/csv,customers.csv_fileobject,cr:FileObject,customers.csv,"## **customers**
-- **Demographic data for each member**
-  - **customer_id**: Unique customer ID (primary key)
-  - **became_member_on**: Date when the customer created their account (yyyymmdd)
-  - **gender**: Customer's gender: (M)ale, (F)emale, or (O)ther
-  - **age**: Customer's age
-  - **income**: Customer's estimated annual income, in USD",archive.zip
-data_dictionary.csv,,,text/csv,data_dictionary.csv_fileobject,cr:FileObject,data_dictionary.csv,,archive.zip
-events.csv,,,text/csv,events.csv_fileobject,cr:FileObject,events.csv,"## **events**
-- **Data on customer activity, with records for transactions, offers received, offers viewed, and offers completed**
-  - **customer_id**: Customer the event is associated with (foreign key)
-  - **event**: Description of the event (transaction, offer received, offer viewed, or offer completed)
-  - **value**: Dictionary of values associated with the event (amount for transactions, offer_id for offers received, etc.)
-  - **time**: Hours passed in the 30-day period (starting at 0)",archive.zip
-offers.csv,,,text/csv,offers.csv_fileobject,cr:FileObject,offers.csv,"## **offers**
-- **Details on the offers sent to customers during the 30-day period**
-  - **offer_id**: Unique offer ID (primary key)
-  - **offer_type**: type of offer: bogo (buy one, get one), discount, or informational
-  - **difficulty**: minimum amount required to spend in order to be able to complete the offer
-  - **reward**: reward (in dollars) obtained by completing the offer
-  - **duration**: days a customer has to complete the offer once they have received it
-  - **channels**: list of marketing channels used to send the offer to customers",archive.zip
-
+Название,Цена,Ссылка
+,,https://www.divan.ru/rostov-na-donu/product/lyustra-livsden-brown
+,,https://www.divan.ru/rostov-na-donu/product/podvesnoj-svetilnik-livsden-brown
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-livsden-brown
+,,https://www.divan.ru/rostov-na-donu/product/torsher-livsden-brown
+,,https://www.divan.ru/rostov-na-donu/product/bra-flimmer-black
+,,https://www.divan.ru/rostov-na-donu/product/lyustra-flimmer-black
+,,https://www.divan.ru/rostov-na-donu/product/podvesnoj-svetilnik-flimmer-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-flimmer-black
+,,https://www.divan.ru/rostov-na-donu/product/torsher-flimmer-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-nidls-raffia-beige
+,,https://www.divan.ru/rostov-na-donu/product/lyustra-gejza-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-gejza-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-gejza-pink
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-gejza-blue
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-gejza-orange
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-alnej-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-alnej-beige
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-alnej-green
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-alnej-orange
+,,https://www.divan.ru/rostov-na-donu/product/torsher-alnej-green
+,,https://www.divan.ru/rostov-na-donu/product/torsher-alnej-black
+,,https://www.divan.ru/rostov-na-donu/product/torsher-alnej-orange
+,,https://www.divan.ru/rostov-na-donu/product/torsher-alnej-beige
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-arbet-orange
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-arbet-silver
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-arbet-beige
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-arbet-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-arbet-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-sindri-grey
+,,https://www.divan.ru/rostov-na-donu/product/lyustra-sindri-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-manet-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-lerret-beige
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-lerret-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-istad-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-istad-white
+,,https://www.divan.ru/rostov-na-donu/product/lyustra-bollar-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-ribe-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-ribe-orange
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-snibald-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-spajk-pink
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-spajk-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-astri-black
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-astri-beige
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-spajk-green
+,,https://www.divan.ru/rostov-na-donu/product/podvesnoj-svetilnik-klaud-white
+,,https://www.divan.ru/rostov-na-donu/product/torsher-klaud-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-klaud-white
+,,https://www.divan.ru/rostov-na-donu/product/nastolnaya-lampa-mashrum-olive
